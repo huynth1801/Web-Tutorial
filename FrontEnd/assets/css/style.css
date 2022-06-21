@@ -1,0 +1,252 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+}
+
+
+
+#header {
+    font-size: 15px;
+    height: 54.5px;
+    line-height: 22.5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+#navBar {
+    width: 100%;
+    height: 59px;
+    background-color: #fff;
+}
+
+#navBar .logo {
+    color: black;
+    text-decoration: none;
+    height: 54.5px;
+    display: inline-block;
+    padding: 16px;
+    left: 0;
+}
+
+#navBar .logo:hover {
+    display: inline-block;
+    color: #000;
+    background-color: #ccc;
+}
+
+#hide-small {
+    /* display: inline-block; */
+    height: 54.5px;
+    float: right;
+}
+
+#hide-small a {
+    color: black;
+    height: 54.5px;
+    text-decoration: none;
+    padding: 16px;
+    display: inline-block;
+}
+
+#hide-small a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.nav-team {
+    font-size: 14px;
+}
+
+.nav-work {
+    font-size: 14px;
+}
+
+.nav-pricing {
+    font-size: 14px;
+}
+
+.nav-contact {
+    font-size: 14px;
+}
+
+#slider {
+    position: relative;
+    margin-top: 54.5px;
+    padding-top: 65%;
+    background: url('/assets/img/slider/mac.jpeg') top center / cover no-repeat;
+    filter: grayscale(0.5);
+}
+
+.text-content {
+    position: absolute;
+    transform: translate(0%,-50%);
+    top: 50%;
+    left: 0%;
+    padding: 48px;
+    color: #fff;
+}
+
+.text-content p {
+    margin: 15px 0px;
+}
+
+.text-heading {
+    font-size: 64px;
+    line-height: 115.2px;
+    text-size-adjust: 100%;
+}
+
+.text-description {
+    font-size: 18px;
+    line-height: 32.4px;
+    text-size-adjust: 100%;
+}
+
+.text-obacity {
+    color: #000;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 12px 24px;
+    margin-top: 16px 0px 0px;
+    line-height: 24px;
+    text-align: center;
+    text-size-adjust: 100%;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.60;
+}
+
+
+#slider .text-obacity:hover {
+    color: #000;
+    background-color: #ccc;
+    opacity: 1;
+}
+
+#slider .display-bottomleft {
+    font-size: 18px;
+    display: inline-block;
+    color: #757575;
+    padding: 24px 48px;
+    line-height: 27px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#container {
+    color: #000;
+    font-size: 15px;
+    padding: 128px 16px;
+    line-height: 27px;
+}
+
+.section-heading {
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section-sub-heading {
+    margin: 18px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.section-row-padding-center {
+    margin: 64px 0px 0px;
+    text-align: center;
+}
+
+.section-quarter {
+    color: #000;
+    padding: 0px 8px;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section-quarter .larger {
+    font-size: 18px;
+    margin-bottom: 18px 0px;
+
+}
+
+.larger {
+    margin: 18px 0px;
+    font-size: 18px;
+}
+
+.section-quarter p {
+}
+
+/* Icon */
+.ti {
+    font-size: 50px;
+    display: inline-block   ;
+}
+
+.display-bottomleft .ti {
+    font-size: 18px;
+}
+
+#content {
+    color: #000;
+    line-height: 27px;
+    padding: 128px 16px;
+    background-color: #f1f1f1;
+    text-size-adjust: 100%;
+    font-size: 15px;
+    display: block;
+}
+
+.row-padding {
+    color: #000;
+    font-size: 15px;
+    padding: 0px 8px;
+}
+
+.w3-col.m6 h3 {
+    font-size: 24px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.w3-col.m6 .p {
+    font-size: 15px;
+    color: #000;
+    margin: 15px 0px;
+}
+
+#content .image-round {
+    aspect-ratio: auto 700 / 394;
+    right: 0;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.button-black {
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+#footer {
+
+}
