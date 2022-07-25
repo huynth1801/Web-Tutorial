@@ -264,7 +264,15 @@
 
         // Tự động đóng khi chọn menu
         var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-        console.log(menuItems)
+        // console.log(menuItems)
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            // console.log(menuItem);
+            menuItem.onclick = function() {
+                console.log(this)
+                header.style.height = null;
+            }
+        }
     </script>
 
 </body>
